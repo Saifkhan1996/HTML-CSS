@@ -1,0 +1,36 @@
+.parents{
+    width: 800px;
+    height: 1200px;
+    background-color: pink; 
+    margin: 20px;
+}
+.third{
+    background-color: teal;
+    /* five properties will not affect on css position   " static attribut" that are left right top bottom and z index */
+    position: relative;
+}
+.one{
+    width: 200px;
+    height: 350px;
+    background-color: red;
+    /* position: relative; */
+}
+.two{
+    width: 400px;
+    height: 350px;
+    background-color: green;
+    /* position: static; */
+    /* relative unlocks left right top bottom z index and it doesnot leave its orignal space that means it occupies whole it's space */
+    /* position: relative; */
+    /* top: 100px; */
+    /* left: 100px; */
+    /* absolute releases it space and it goes to its parent that has relative position other wise it goes to body tag */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.three{
+    width: 600px;
+    height: 350px;
+    background-color: blue;
+}

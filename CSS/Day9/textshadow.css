@@ -1,0 +1,9 @@
+h2{
+    /* we can control two side at a time that are right-bottom,left-top */
+    color: violet;
+    /* text-decoration: line-through solid white; */
+    /* we can achieve this in right and bottom third value is blur */
+    text-shadow: 5px 10px 3px black;
+    /* we can achieve this in left and top third value is blur and blur will not be minus value  */
+    text-shadow: -3px -4px 4px green;
+}

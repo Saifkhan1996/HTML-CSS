@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+}
+.one:link{
+    color: green;
+
+}
+.two:visited{
+    color: blueviolet;
+}
+.three:hover{
+color: coral;
+background-color: teal;
+}
+.four:active{
+    color: red;
+} 

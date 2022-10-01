@@ -1,0 +1,34 @@
+.first{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    transition-duration: 4s;
+    transition-delay: 3s;
+    transition-property: background-color;
+    transition-timing-function:ease;
+}
+.first:hover{
+    width: 800px;
+    /* height: 200px; */
+    background-color: crimson;
+}
+/* .one{
+    transition-timing-function: linear;
+}
+.two{
+    transition-timing-function: ease;
+}
+.thre{
+    transition-timing-function: ease-in;
+}
+.four{
+    transition-timing-function: ease-in-out;
+}
+.five{
+    transition-timing-function: ease-out;
+} */
+/* second value duration,third value delay, */
+.one{
+    transition: width 2s 4s linear;
+    
+}

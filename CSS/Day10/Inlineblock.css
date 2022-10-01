@@ -1,0 +1,42 @@
+/* universal code denoted by asterisk sign (*)*/
+*{
+    margin: 0px;
+}
+body{
+    /* background-color: gray; */
+}
+h1{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display:inline-block ; 
+    /* margin: 50px;                      */
+}
+span{
+    background-color: blue;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+h2{
+    background-color: aquamarine;
+    display: inline;
+}
+p{
+    background-color: brown;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+abbr{
+    background-color: blue;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+textarea{
+    background-color: blueviolet;
+    display: inline-block;
+    width: 100PX;
+    height: 100px;
+}

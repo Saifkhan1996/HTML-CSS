@@ -1,0 +1,32 @@
+.parents{
+    background-color: aqua;
+    width: 800px;
+    height: 1200px;
+    margin: 50px;
+}
+
+.second div{
+    /* background-color: rgb(140, 233, 121); */
+    width:200px;
+    height: 200px;
+    margin: 20px;
+    /* position: absolute; */
+
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: green;
+    position: relative;
+    /* position: absolute; */
+    /* left: 50px; */
+    /* bottom: 50px; */
+    top: 50px;
+    right: 50px;
+}
+.three{
+    background-color: blue;
+right: 100px;
+bottom: 100px;
+}

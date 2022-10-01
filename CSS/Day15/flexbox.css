@@ -1,0 +1,48 @@
+.parent{
+    background-color: slategray;
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    /* justify-content: end; */  
+    align-items: center;
+
+    /* flex-direction: column;   */
+    flex-direction: column-reverse;
+
+}
+.child{
+    width: 23%;
+    height: 400px;
+    background-color: seagreen;
+    margin: 5px;
+    
+}
+
+.secondparent{
+    background-color: darkcyan;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    align-content: center;
+    align-content: start;
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    align-content: space-evenly;
+
+}
+.common{
+    height: 300px;
+    width: 30%;
+    background-color: slateblue;
+    margin: 5px;
+}
+.target{
+    /* height: auto; */
+    /* align-self: stretch; */
+    align-self: baseline;
+}

@@ -1,0 +1,40 @@
+p::first-line{
+    color: red;
+}
+p{
+    color: green;
+}
+/* p::first-letter{
+background-color: cadetblue;
+font-size: 50px;
+font-style: italic;
+} */
+p::before{
+    content:" Hello world";
+    background-color: cornflowerblue;
+    font-size: 50px;
+    font-family: cursive; 
+}
+p::after{
+    content: "Bye";
+    background-color: cyan;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+p::selection{
+    color: darkblue;
+    background-color: yellow;
+}
+span::selection{
+    color: crimson;
+    background-color: aquamarine;
+    font-size:50px;
+}
+/* if we take a class space is must between class and colons */
+.abc ::marker{
+    color: red;
+}
+::marker{
+    color: blue;
+}

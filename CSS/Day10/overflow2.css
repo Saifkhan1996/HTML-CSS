@@ -1,0 +1,10 @@
+
+.first{
+    background-color: slateblue;
+    overflow-x:scroll ;
+    white-space: nowrap;
+}
+img{
+    width: 300px;
+    height: 300px;
+}

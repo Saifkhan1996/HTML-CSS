@@ -1,0 +1,43 @@
+.main{
+    background-color: lightcoral;
+    width: 750px;
+    height: 750px;
+    margin: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+.one{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+
+}
+.two{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 700px;
+    top: 200px;
+}
+.three{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+.four{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left: 350px;
+}

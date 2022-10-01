@@ -1,0 +1,40 @@
+.parent{
+    background-color:aqua;
+    width: 600px;
+    height: 1200px;
+    /* in opacity we gives value in percentage like 1=100% and it gives transparency to content */
+    opacity: 1;
+    background-image: url(../../Assets/nature1.jpg);
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: TOP right  ; */
+    /* background-position: right bottom ;/ */
+    /* background-position: top center; */
+    /* background-position: center center; */
+    background-position: left top;
+    /* background-position: center bottom; */
+    /* background-position: center right; */
+    /* background-attachment: fixed; */
+    /* bg fixed affects bg image */
+    /* background-attachment: scroll; */
+    border: 20px black dotted;
+    /* background-origin: padding-box; */
+    /* background-origin: border-box; */
+    background-origin: content-box;
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    background-clip: content-box;
+}
+.dummy{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+}
+#dummy{
+    width: 600px;
+    height: 600px;
+    background-color: violet;
+}
